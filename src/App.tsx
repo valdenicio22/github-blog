@@ -1,10 +1,7 @@
-import { Header } from './components/Header'
+import { RouterProvider } from 'react-router-dom'
+import { Router } from './Router'
 
 function App() {
-  return (
-    <div className="w-full h-screen bg-base-background">
-      <Header />
-    </div>
-  )
+  return <RouterProvider router={Router} />
 }
 export default App
