@@ -1,7 +1,7 @@
 import { HTMLAttributes, ReactNode } from 'react'
 
 type RegularTextProps = {
-  color?: 'text' | 'subtitle'
+  color?: 'text' | 'subtitle' | 'span'
   size?: 'md' | 'sm'
   weight?: 'regular' | 'bold'
   as?: keyof JSX.IntrinsicElements
@@ -20,6 +20,7 @@ export function RegularText({
   const colorVariant = {
     text: 'text-base-text',
     subtitle: 'text-base-subtitle',
+    span: 'text-base-span',
   }
   const sizeVariant = {
     md: 'text-text-md',
