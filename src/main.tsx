@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import moment from 'moment'
+import 'moment/locale/pt-br'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'

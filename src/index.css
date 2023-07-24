@@ -15,7 +15,7 @@ textarea {
 
 @layer components {
   .layout-container {
-    @apply max-w-[58rem] mx-auto px-4;
+    @apply w-full max-w-[58rem] mx-auto px-4;
   }
   .base-profile-container {
     @apply w-full bg-base-profile
