@@ -15,6 +15,10 @@ textarea {
 
 @layer components {
   .layout-container {
-    @apply w-[56rem] mx-auto px-4;
+    @apply max-w-[58rem] mx-auto px-4;
+  }
+  .base-profile-container {
+    @apply w-full bg-base-profile
+      rounded-[10px] pl-10 py-8 pr-8 -mt-[5.5rem] shadow-[0_2px_28px_0px_rgba(0,0,0,0.2)];
   }
 }

@@ -10,12 +10,7 @@ export function InfoWithIcon({ icon, info }: InfoWithIconProps) {
   return (
     <div className="flex gap-2">
       <span className="w-[1.125rem] h-[1.125rem] text-base-label">{icon}</span>
-      <RegularText
-        color="subtitle"
-        className="flex items-center justify-center"
-      >
-        {info}
-      </RegularText>
+      <RegularText color="subtitle">{info}</RegularText>
     </div>
   )
 }
