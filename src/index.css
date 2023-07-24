@@ -13,7 +13,7 @@ textarea {
   @apply text-text-md font-regular font-normal;
 }
 
-@layer utilities {
+@layer components {
   .layout-container {
     @apply w-[56rem] mx-auto px-4;
   }
