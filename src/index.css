@@ -21,4 +21,7 @@ textarea {
     @apply w-full bg-base-profile
       rounded-[10px] pl-10 py-8 pr-8 -mt-[5.5rem] shadow-[0_2px_28px_0px_rgba(0,0,0,0.2)];
   }
+  .postDetails h2 {
+    @apply text-brand-blue text-title-md;
+  }
 }

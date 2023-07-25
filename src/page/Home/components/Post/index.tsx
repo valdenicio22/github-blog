@@ -9,7 +9,7 @@ interface PostProps {
 }
 
 export function Post({ post }: PostProps) {
-  const formattedDate = relativeDateFormatter(post.created_at)
+  const formattedDate = relativeDateFormatter(post?.created_at)
   return (
     <Link
       to={`/postDetails/${post.number}`}

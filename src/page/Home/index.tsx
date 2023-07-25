@@ -30,7 +30,6 @@ export function Home() {
       const response = await api.get(
         `/search/issues?q=${query}%20repo:${username}/${repoName}`,
       )
-      console.log('items', response.data.items)
       setPosts(response.data.items)
     } catch (error) {
       console.log(error)
